@@ -5,19 +5,19 @@ This is a Vagrant and a shell provisioning file to install af2_configure in an
 Ubuntu box.
 
 The software 
-(af2_configure)[http://www.ing.iac.es/astronomy/instruments/af2/configuration.html] 
+[af2_configure](http://www.ing.iac.es/astronomy/instruments/af2/configuration.html) 
 is used to generate the configuration files for the fibres of the 
-(AutoFib2+WYFFOS instrument)[http://www.ing.iac.es/astronomy/instruments/af2/]
+[AutoFib2+WYFFOS instrument](http://www.ing.iac.es/astronomy/instruments/af2/)
 located in the 
-(William Herschel Telescope)[http://www.ing.iac.es/astronomy/telescopes/wht/] 
+[William Herschel Telescope](http://www.ing.iac.es/astronomy/telescopes/wht/) 
 in La Palma.
 
 The software is a bit old and it is difficult to compile it in modern systems. 
 The aim of the files offered in this repository is to be able to run 
 af2_configure in a virtual machine without the need to struggle with the 
 compilation process. The user just needs 
-(VirtualBox)[https://www.virtualbox.org/] and 
-(Vagrant)[https://www.vagrantup.com/] installed in their system.
+[VirtualBox](https://www.virtualbox.org/) and 
+[Vagrant](https://www.vagrantup.com/) installed in their system.
 
 Usage
 -----
