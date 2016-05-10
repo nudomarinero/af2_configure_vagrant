@@ -40,3 +40,8 @@ Whitin the system you can enter the af2_configure directory and run the
 ```bin/af2_config``` command.
 
 The PGPLOT device ```\XSERVE``` should work correctly.
+
+References
+----------
+
+* http://askubuntu.com/questions/300957/how-do-i-install-libg2c
