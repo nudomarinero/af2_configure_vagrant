@@ -3,7 +3,9 @@
 # Intall useful dependencies
 sudo apt-get update
 sudo apt-get -y install gcc make libc6-dev python-matplotlib python-pip \
-  python-numpy python-scipy python-dev
+  python-numpy python-dev
+sudo apt-get build-dep -y python-scipy
+sudo pip install scipy
 sudo pip install astropy
 
 # Install af2_configure
