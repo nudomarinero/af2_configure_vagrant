@@ -41,6 +41,32 @@ Whitin the system you can enter the af2_configure directory and run the
 
 The PGPLOT device ```\XSERVE``` should work correctly.
 
+Alternative without Python packages
+-----------------------------------
+
+The normal process will also install some Python packages useful for working 
+with astronomy data like matplotlib, numpy, scipy and astropy. If you do not
+require them you can use an alternative version.
+
+To use the version without dependencies the following command has to be run: 
+    VAGRANT_VAGRANTFILE=Vagrantfile.nodeps vagrant up
+
+Tips
+----
+
+If the base vagrant box become obsolete it can be upgraded with:
+```
+vagrant box update
+```
+
+Any installation of additional software may uninstall one dependency that is 
+installed in a forced way (libg2c). If the dependency is uninstalled 
+accidentally it can be reinstalled from the home directory of the varant box 
+with the command:
+```
+dpkg -i --force-all libg2c0_3.4.6-6ubuntu5_i386.deb
+```
+
 References
 ----------
 
